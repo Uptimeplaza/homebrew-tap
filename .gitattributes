@@ -1,0 +1,4 @@
+# Exclude everything from auto-generated source archives (git archive).
+# Release assets on this repo are binary tarballs, not source code.
+* export-ignore
+.gitattributes -export-ignore

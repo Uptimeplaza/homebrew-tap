@@ -5,24 +5,24 @@ Homebrew formulae for [Uptimeplaza](https://github.com/Uptimeplaza) projects.
 ## Usage
 
 ```bash
-brew tap Uptimeplaza/homebrew git@github.com:Uptimeplaza/homebrew.git
+brew tap uptimeplaza/tap
 ```
 
 Then install any available formula:
 
 ```bash
-brew install <formula>
+brew install vardrun
 ```
 
 To update:
 
 ```bash
 brew update
-brew upgrade <formula>
+brew upgrade vardrun
 ```
 
 ## Available Formulae
 
-| Formula | Description | Version |
-|---------|-------------|---------|
-| [vardrun](Formula/vardrun.rb) | Issue tracking CLI | 0.1.0 |
+| Formula | Description |
+|---------|-------------|
+| [vardrun](Formula/vardrun.rb) | Issue tracking CLI |

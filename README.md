@@ -11,6 +11,7 @@ brew tap uptimeplaza/tap
 Then install any available formula:
 
 ```bash
+brew install leita
 brew install vardrun
 ```
 
@@ -18,6 +19,7 @@ To update:
 
 ```bash
 brew update
+brew upgrade leita
 brew upgrade vardrun
 ```
 
@@ -25,4 +27,5 @@ brew upgrade vardrun
 
 | Formula | Description |
 |---------|-------------|
+| [leita](Formula/leita.rb) | Domain registration checker via RDAP |
 | [vardrun](Formula/vardrun.rb) | Issue tracking CLI |

@@ -1,26 +1,26 @@
 class Callis < Formula
   desc "CLI for managing AI agent skills"
   homepage "https://github.com/Uptimeplaza/callis"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Uptimeplaza/homebrew-tap/releases/download/callis-v0.1.1/callis-0.1.1-darwin-arm64.tar.gz"
-      sha256 "13a1174ba92fc37527e3a704082d99b991b64285e8863a8f58b2083d1e4731c1"
+      url "https://github.com/Uptimeplaza/homebrew-tap/releases/download/callis-v0.1.2/callis-0.1.2-darwin-arm64.tar.gz"
+      sha256 "19763d0f4dc768511baa058a2c330c6ad8a95cc467fdeb33f99c5ee69530877a"
     else
-      url "https://github.com/Uptimeplaza/homebrew-tap/releases/download/callis-v0.1.1/callis-0.1.1-darwin-amd64.tar.gz"
-      sha256 "fed99c451ebada2966d6670c7733a8d516b82d82a7914614e746db88db5a8dec"
+      url "https://github.com/Uptimeplaza/homebrew-tap/releases/download/callis-v0.1.2/callis-0.1.2-darwin-amd64.tar.gz"
+      sha256 "9102d0ed65c0a74fcb74a571527b5eebd2bf6f34684480edd68ab05ab6f90968"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Uptimeplaza/homebrew-tap/releases/download/callis-v0.1.1/callis-0.1.1-linux-arm64.tar.gz"
-      sha256 "c022a4315aa40a588b99531970f6b9c67b35265d321355dde39c9b935c00b3ee"
+      url "https://github.com/Uptimeplaza/homebrew-tap/releases/download/callis-v0.1.2/callis-0.1.2-linux-arm64.tar.gz"
+      sha256 "7cfd7e99077aaad8c8778d9950afe0d36b8303a40c70bb4d97c604cb83e02573"
     else
-      url "https://github.com/Uptimeplaza/homebrew-tap/releases/download/callis-v0.1.1/callis-0.1.1-linux-amd64.tar.gz"
-      sha256 "a2082a9049735a495ab5c66965f26fbc42b25be8a18f47b47786a699a266e59b"
+      url "https://github.com/Uptimeplaza/homebrew-tap/releases/download/callis-v0.1.2/callis-0.1.2-linux-amd64.tar.gz"
+      sha256 "a2a9b05bd12cb9bafd659920f42359cf5dfcf4eccadfd4ca1378c6d5b709562e"
     end
   end
 

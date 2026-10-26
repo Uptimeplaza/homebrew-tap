@@ -1,26 +1,26 @@
 class Vardrun < Formula
   desc "Issue tracking CLI for vardrun"
   homepage "https://github.com/Uptimeplaza/homebrew-tap"
-  version "0.1.6"
+  version "0.1.7"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Uptimeplaza/homebrew-tap/releases/download/vardrun-v0.1.6/vardrun-0.1.6-darwin-arm64.tar.gz"
-      sha256 "db2e857099ba9850747ad1ac5905841bd4af172b382c0900317c64a6f2d06244"
+      url "https://github.com/Uptimeplaza/homebrew-tap/releases/download/vardrun-v0.1.7/vardrun-0.1.7-darwin-arm64.tar.gz"
+      sha256 "64b979181af31fce625139394325746b0493b69d042075a5efe94f00ca6381f7"
     else
-      url "https://github.com/Uptimeplaza/homebrew-tap/releases/download/vardrun-v0.1.6/vardrun-0.1.6-darwin-amd64.tar.gz"
-      sha256 "aed95d32c0980a43d9e904cff5cc677b409dfa704c155000b8dea2863dc27f8a"
+      url "https://github.com/Uptimeplaza/homebrew-tap/releases/download/vardrun-v0.1.7/vardrun-0.1.7-darwin-amd64.tar.gz"
+      sha256 "925965c2b678bf744a420011ef002350566aab81a148443661051580ead458c1"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Uptimeplaza/homebrew-tap/releases/download/vardrun-v0.1.6/vardrun-0.1.6-linux-arm64.tar.gz"
-      sha256 "1088402ceb91f0f1187d428d59014a53fd3d1c7bcf58040cc565b44c97a21e95"
+      url "https://github.com/Uptimeplaza/homebrew-tap/releases/download/vardrun-v0.1.7/vardrun-0.1.7-linux-arm64.tar.gz"
+      sha256 "b1984e57fabc85240f670997c8b285f514b763303437a2461ef4427d98629920"
     else
-      url "https://github.com/Uptimeplaza/homebrew-tap/releases/download/vardrun-v0.1.6/vardrun-0.1.6-linux-amd64.tar.gz"
-      sha256 "a7e7a94a0477d2a6e2ff535e7d118e9843ee0f8cd2dd692cdc17806adda86482"
+      url "https://github.com/Uptimeplaza/homebrew-tap/releases/download/vardrun-v0.1.7/vardrun-0.1.7-linux-amd64.tar.gz"
+      sha256 "1c1d4f49e666327f11b2451dfd637143c34ab9052e83b8833b0146de626eb194"
     end
   end
 
